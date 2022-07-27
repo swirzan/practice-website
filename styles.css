@@ -1,0 +1,29 @@
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.title {
+    font: 400 36px "Source Sans Pro", arial, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    display: inline-block;
+    max-width: 700px;
+    padding: 10px 0px 6px 0px;
+    border-bottom: #FF0000 1px solid;
+    text-align: center;
+}
+
+.main-img {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: 10px auto 36px auto;
+    -webkit-box-sizing: border-box;
+    border: #5E7287 0px solid;
+    border-radius: 4px;
+}
+
+
+ 
+ 
