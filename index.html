@@ -22,12 +22,41 @@
         </p>
     </div>
 </div>-->
-<form action="/">
-    <input type="text">
-    <input type="password">
-    <input type="email">
-    <input type="date">
-    <input type="color">
+<form action="https://www.google.com/">
+    <p>
+    <label for="name">Enter Your Name:</label>
+    <input id="name" type="text" placeholder="Enter Your Name" name="username" required minlength="4" maxlength="15">
+   
+</p>
+<p>
+    <label for="password">Enter Your Password:</label>
+    <input id="password" type="password" placeholder="Enter Password" name="password" required>
+</p>
+<p>
+    <label for="email">Enter Your Email:</label>
+    <input id="email" type="email" placeholder="Enter Your Email" name="email" required>
+</p>
+<p>
+    <label for="date">Enter Date:</label>
+    <input id="date" type="date" name="date" required> 
+</p>
+<p>
+    <label for="color">Select Color:</label>
+    <input id="color" type="color" name="color" required>
+</p>
+<p>
+    <label for="range">Account Level:</label>
+    <input type="range" name="range" min="1" max="20" value="10" >
+</p>
+<p>
+    <label for="suggestion">Any Suggestion:</label>
+</br>
+    <textarea id="suggestion" rows="10" placeholder="Any Suggestion!!"></textarea>
+</p>
+<p>
+    <button type="submit">submit</button>
+</p>
+
 </form>
 </body>
 </html>
