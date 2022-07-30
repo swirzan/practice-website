@@ -1,3 +1,160 @@
+@media (max-width: 1500px){
+h1 {
+    color: aqua;
+}
+}
+
+
+@media (max-width: 1000px){
+    h1 {
+        color: orange;
+    }
+    }
+
+    @media (max-width: 500px){
+        h1 {
+            color: purple;
+        }
+        }
+
+
+
+
+
+ 
+
+
+/* body {
+    font-family: 'Open Sens', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+  background-color: #003049;  
+  width:90%;
+  height: 400px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+#container div {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    flex-basis: 400px;
+}
+
+div:nth-of-type(3){
+    flex-grow: 1;
+} */
+
+
+
+
+
+/*body {
+    background-color: black;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    transition: 3s;
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 200px;
+    
+}
+
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+
+section:hover div {
+    margin-left: 50px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.7,0 ,0.84 ,0);
+}
+
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+div:nth-of-type(5){
+    transition-timing-function: step-end;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0em, 0.8em, 0.8em, -0.7em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*section {
+    height: 500px;
+    width: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    height: 50%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#opacity {8
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    opacity: 0.2;
+}
 /*body {
     margin-left: 250px;
     margin-right: 250px;
@@ -28,7 +185,6 @@
     font: 400 30px "Source Sans Pro", arial, sans-serif;
     color: black
 };
-
 
 
 
